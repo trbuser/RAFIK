@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_G8rekW1UEeeTfbcMfu5kMg" name="ConventionAMParMarque" dataPackage="_G8rekm1UEeeTfbcMfu5kMg" Server="Localhost 127.0.0.1" FilePath="C:/Users/ADBI46/Desktop/STH - Fichiers Data Sources/Extractions Sparc - 18_07_2017/ConventionAMParMarque/ConventionAMParMarque.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_G8rekm1UEeeTfbcMfu5kMg" name="default" dataManager="_G8rekW1UEeeTfbcMfu5kMg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_G8rek21UEeeTfbcMfu5kMg" id="_DkOVAG1UEeeTfbcMfu5kMg" label="metadata_ConventionAMParMarque">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8relG1UEeeTfbcMfu5kMg" label="Id" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8relW1UEeeTfbcMfu5kMg" label="IsDeleted" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8relm1UEeeTfbcMfu5kMg" label="Name" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8rel21UEeeTfbcMfu5kMg" label="RecordTypeId" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8remG1UEeeTfbcMfu5kMg" label="CreatedDate" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8remW1UEeeTfbcMfu5kMg" label="CreatedById" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8remm1UEeeTfbcMfu5kMg" label="LastModifiedDate" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8rem21UEeeTfbcMfu5kMg" label="LastModifiedById" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8renG1UEeeTfbcMfu5kMg" label="SystemModstamp" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8renW1UEeeTfbcMfu5kMg" label="ConnectionReceivedId" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8renm1UEeeTfbcMfu5kMg" label="ConnectionSentId" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8ren21UEeeTfbcMfu5kMg" label="NouvelleConventionDeBiere__c" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8reoG1UEeeTfbcMfu5kMg" label="AjustementVolume__c" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8reoW1UEeeTfbcMfu5kMg" label="DateTarifDist__c" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8reom1UEeeTfbcMfu5kMg" label="DistrParticipation__c" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8reo21UEeeTfbcMfu5kMg" label="MarqueFut__c" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8repG1UEeeTfbcMfu5kMg" label="MtTotalAjuste__c" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8repW1UEeeTfbcMfu5kMg" label="MtTotalDeLaRemise__c" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8repm1UEeeTfbcMfu5kMg" label="PolcoRemise__c" length="106" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8rep21UEeeTfbcMfu5kMg" label="Polco__c" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8reqG1UEeeTfbcMfu5kMg" label="PrixDeVenteConso__c" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8reqW1UEeeTfbcMfu5kMg" label="Remise__c" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8reqm1UEeeTfbcMfu5kMg" label="TarifAchatPDV__c" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8req21UEeeTfbcMfu5kMg" label="TarifDist__c" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8rerG1UEeeTfbcMfu5kMg" label="VolumeAjuste__c" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8rerW1UEeeTfbcMfu5kMg" label="VolumePrev__c" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8rerm1UEeeTfbcMfu5kMg" label="CommentaireTarifDist__c" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8rer21UEeeTfbcMfu5kMg" label="MtTotalDeLaRemiseTECH__c" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8resG1UEeeTfbcMfu5kMg" label="TECH_CLE_EXTERNE__c" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8resW1UEeeTfbcMfu5kMg" label="TECH_RDD__c" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8resm1UEeeTfbcMfu5kMg" label="Marque__c" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8res21UEeeTfbcMfu5kMg" label="MT_Total_Remise_Distr__c" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8retG1UEeeTfbcMfu5kMg" label="Contenance__c" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8retW1UEeeTfbcMfu5kMg" label="Tech_CodeDossier__c" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8retm1UEeeTfbcMfu5kMg" label="Tech_Id_AMLFormHE__c" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8ret21UEeeTfbcMfu5kMg" label="ODA_DATA_SAMP_ID__c" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8reuG1UEeeTfbcMfu5kMg" label="ODA_DATA_SAMP_WHY__c" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8reuW1UEeeTfbcMfu5kMg" label="ODA_DATA_SAMP__c" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G8reum1UEeeTfbcMfu5kMg" label="Tech_ConventionAM_RecordTypeId__c" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

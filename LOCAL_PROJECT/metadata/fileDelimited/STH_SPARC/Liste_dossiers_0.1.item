@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_WAlvkHwvEee7g8XfkiGVZA" name="Liste_dossiers" dataPackage="_WAlvkXwvEee7g8XfkiGVZA" Server="Localhost 127.0.0.1" FilePath="C:/Users/ADBI46/Desktop/STH - Fichiers Data Sources/20170804Liste_des_dossiers.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_WAlvkXwvEee7g8XfkiGVZA" name="default" dataManager="_WAlvkHwvEee7g8XfkiGVZA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_WAlvknwvEee7g8XfkiGVZA" id="_6HorsHwuEee7g8XfkiGVZA" label="metadata_liste_dossiers">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAlvk3wvEee7g8XfkiGVZA" label="Dossier" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAlvlHwvEee7g8XfkiGVZA" label="Code_Prestation" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAlvlXwvEee7g8XfkiGVZA" label="Type_Prestation" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAlvlnwvEee7g8XfkiGVZA" label="Nature_Prestation" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAlvl3wvEee7g8XfkiGVZA" label="D_but" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAlvmHwvEee7g8XfkiGVZA" label="Fin" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAlvmXwvEee7g8XfkiGVZA" label="Date_Annulation" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAlvmnwvEee7g8XfkiGVZA" label="Devise" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAlvm3wvEee7g8XfkiGVZA" label="Risque_Brasserie" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAlvnHwvEee7g8XfkiGVZA" label="Solde_Compte" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAlvnXwvEee7g8XfkiGVZA" label="Restant_Du" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAlvnnwvEee7g8XfkiGVZA" label="Vbank" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAlvn3wvEee7g8XfkiGVZA" label="Pr__Contentieux" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAlvoHwvEee7g8XfkiGVZA" label="Cont__avec_quittance_subr_" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAlvoXwvEee7g8XfkiGVZA" label="Cont__sans_quittance_subr_" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAlvonwvEee7g8XfkiGVZA" label="Pr__contentieux_PAD" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

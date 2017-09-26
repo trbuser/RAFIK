@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_XLt9gGcIEeefXZku12-qlQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_XLt9gWcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Login" prompt="MySQL_TalendFormation_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_XLt9gmcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Password" prompt="MySQL_TalendFormation_Password?" promptNeeded="false" type="id_Password" value="0yFCRT2Q52GBFffAtTTeXw=="/>
+    <contextParameter xmi:id="_XLt9g2cIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Server" prompt="MySQL_TalendFormation_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_XLt9hGcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Database" prompt="MySQL_TalendFormation_Database?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_XLt9hWcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_AdditionalParams" prompt="MySQL_TalendFormation_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_XLt9hmcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Port" prompt="MySQL_TalendFormation_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_XLt9h2cIEeefXZku12-qlQ" confirmationNeeded="false" name="Dev">
+    <contextParameter xmi:id="_XLt9iGcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Login" prompt="MySQL_TalendFormation_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_XLt9iWcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Password" prompt="MySQL_TalendFormation_Password?" promptNeeded="false" type="id_Password" value="0yFCRT2Q52GBFffAtTTeXw=="/>
+    <contextParameter xmi:id="_XLt9imcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Server" prompt="MySQL_TalendFormation_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_XLt9i2cIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Database" prompt="MySQL_TalendFormation_Database?" promptNeeded="false" type="id_String" value="DWH"/>
+    <contextParameter xmi:id="_XLt9jGcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_AdditionalParams" prompt="MySQL_TalendFormation_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_XLt9jWcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Port" prompt="MySQL_TalendFormation_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_XLt9jmcIEeefXZku12-qlQ" confirmationNeeded="false" name="Prod">
+    <contextParameter xmi:id="_XLt9j2cIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Login" prompt="MySQL_TalendFormation_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_XLt9kGcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Password" prompt="MySQL_TalendFormation_Password?" promptNeeded="false" type="id_Password" value="0yFCRT2Q52GBFffAtTTeXw=="/>
+    <contextParameter xmi:id="_XLt9kWcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Server" prompt="MySQL_TalendFormation_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_XLt9kmcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Database" prompt="MySQL_TalendFormation_Database?" promptNeeded="false" type="id_String" value="SRC"/>
+    <contextParameter xmi:id="_XLt9k2cIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_AdditionalParams" prompt="MySQL_TalendFormation_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_XLt9lGcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Port" prompt="MySQL_TalendFormation_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_XLt9lWcIEeefXZku12-qlQ" confirmationNeeded="false" name="Rec">
+    <contextParameter xmi:id="_XLt9lmcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Login" prompt="MySQL_TalendFormation_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_XLt9l2cIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Password" prompt="MySQL_TalendFormation_Password?" promptNeeded="false" type="id_Password" value="0yFCRT2Q52GBFffAtTTeXw=="/>
+    <contextParameter xmi:id="_XLt9mGcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Server" prompt="MySQL_TalendFormation_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_XLt9mWcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Database" prompt="MySQL_TalendFormation_Database?" promptNeeded="false" type="id_String" value="STG"/>
+    <contextParameter xmi:id="_XLt9mmcIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_AdditionalParams" prompt="MySQL_TalendFormation_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_XLt9m2cIEeefXZku12-qlQ" comment="" name="MySQL_TalendFormation_Port" prompt="MySQL_TalendFormation_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  </talendfile:ContextType>
+</xmi:XMI>

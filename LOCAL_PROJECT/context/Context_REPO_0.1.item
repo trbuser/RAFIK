@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_LMPNcGY8EeeFgPXuGizLyQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_LMPNcWY8EeeFgPXuGizLyQ" comment="" name="Rep_local" prompt="Rep_local?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_LMPNcmY8EeeFgPXuGizLyQ" comment="" name="Rep_distant" prompt="Rep_distant?" promptNeeded="false" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_LMPNc2Y8EeeFgPXuGizLyQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_LMPNdGY8EeeFgPXuGizLyQ" comment="" name="Rep_local" prompt="Rep_local?" promptNeeded="false" type="id_String" value="C:/Users/ADBI46/Desktop/Rep_local/"/>
+    <contextParameter xmi:id="_LMPNdWY8EeeFgPXuGizLyQ" comment="" name="Rep_distant" prompt="Rep_distant?" promptNeeded="false" type="id_String" value="C:/Users/ADBI46/Desktop/Rep_distant/"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_LMPNdmY8EeeFgPXuGizLyQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_LMPNd2Y8EeeFgPXuGizLyQ" comment="" name="Rep_local" prompt="Rep_local?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_LMPNeGY8EeeFgPXuGizLyQ" comment="" name="Rep_distant" prompt="Rep_distant?" promptNeeded="false" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_LMPNeWY8EeeFgPXuGizLyQ" confirmationNeeded="false" name="REC">
+    <contextParameter xmi:id="_LMPNemY8EeeFgPXuGizLyQ" comment="" name="Rep_local" prompt="Rep_local?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_LMPNe2Y8EeeFgPXuGizLyQ" comment="" name="Rep_distant" prompt="Rep_distant?" promptNeeded="false" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

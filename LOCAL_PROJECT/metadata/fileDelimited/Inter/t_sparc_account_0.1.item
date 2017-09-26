@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_ct4UwHtwEee_vcRaLpqYHA" name="t_sparc_account" dataPackage="_ct4UwXtwEee_vcRaLpqYHA" Server="Localhost 127.0.0.1" FilePath="D:/HK/files/Inter/t_Sparc_account.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ct4UwXtwEee_vcRaLpqYHA" name="default" dataManager="_ct4UwHtwEee_vcRaLpqYHA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ct4UwntwEee_vcRaLpqYHA" id="_Iv15AHtwEee_vcRaLpqYHA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ct4Uw3twEee_vcRaLpqYHA" label="ContractantPC__c" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ct4UxHtwEee_vcRaLpqYHA" label="Famille__c" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

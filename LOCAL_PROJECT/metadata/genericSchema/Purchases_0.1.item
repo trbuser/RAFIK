@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_DjBJUFXVEeelTYwPQS0UEQ" name="repository.metadataGenericSchema" dataPackage="_DjBJUVXVEeelTYwPQS0UEQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_DjBJUVXVEeelTYwPQS0UEQ" name="repository.metadataGenericSchema" dataManager="_DjBJUFXVEeelTYwPQS0UEQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_DjBJUlXVEeelTYwPQS0UEQ" id="_NkAikFXUEeelTYwPQS0UEQ" label="purchases">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DjBJU1XVEeelTYwPQS0UEQ" name="SKU" label="SKU" length="10" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DjBJVFXVEeelTYwPQS0UEQ" name="CustomerID" label="CustomerID" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DjBJVVXVEeelTYwPQS0UEQ" name="PurchaseDate" label="PurchaseDate" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DjBJVlXVEeelTYwPQS0UEQ" name="Quantity" label="Quantity" length="-1" talendType="id_Integer"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

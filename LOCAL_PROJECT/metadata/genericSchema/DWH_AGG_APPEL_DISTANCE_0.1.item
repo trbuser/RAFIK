@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_1eSrAGDwEeeCtbxNQoW_0A" dataPackage="_1eSrAWDwEeeCtbxNQoW_0A"/>
+  <TalendMetadata:GenericPackage xmi:id="_1eSrAWDwEeeCtbxNQoW_0A" dataManager="_1eSrAGDwEeeCtbxNQoW_0A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_1eSrAmDwEeeCtbxNQoW_0A" id="_1eSD8GDwEeeCtbxNQoW_0A" label="DWH_AGG_APPEL_DISTANCE">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1eSrA2DwEeeCtbxNQoW_0A" name="Lib_Distance" label="Lib_Distance" length="15" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <initialValue xmi:id="_1eSrBGDwEeeCtbxNQoW_0A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1eSrBWDwEeeCtbxNQoW_0A" name="Pays" label="Pays" length="15" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <initialValue xmi:id="_1eSrBmDwEeeCtbxNQoW_0A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1eSrB2DwEeeCtbxNQoW_0A" name="Mois_appel" label="Mois_appel" length="6" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <initialValue xmi:id="_1eSrCGDwEeeCtbxNQoW_0A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1eSrCWDwEeeCtbxNQoW_0A" name="Type_Offre" label="Type_Offre" length="8" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <initialValue xmi:id="_1eSrCmDwEeeCtbxNQoW_0A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1eSrC2DwEeeCtbxNQoW_0A" name="Id_Direction" label="Id_Direction" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_1eSrDGDwEeeCtbxNQoW_0A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1eSrDWDwEeeCtbxNQoW_0A" name="Lib_Produit" label="Lib_Produit" length="8" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <initialValue xmi:id="_1eSrDmDwEeeCtbxNQoW_0A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1eSrD2DwEeeCtbxNQoW_0A" name="Duree" label="Duree" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_1eSrEGDwEeeCtbxNQoW_0A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1eSrEWDwEeeCtbxNQoW_0A" name="Nb_appel" label="Nb_appel" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_1eSrEmDwEeeCtbxNQoW_0A"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

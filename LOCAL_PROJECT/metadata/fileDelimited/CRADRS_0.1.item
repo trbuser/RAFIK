@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_cbkwQW0sEeeUvcuSuIDFCA" name="CRADRS" dataPackage="_cbkwQm0sEeeUvcuSuIDFCA" Server="Localhost 127.0.0.1" FilePath="C:/Users/ADBI46/Desktop/STH - Fichiers Data Sources/Alexandre_STH_18_07_2017/CRADRS/CRADRS.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_cbkwQm0sEeeUvcuSuIDFCA" name="default" dataManager="_cbkwQW0sEeeUvcuSuIDFCA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_cbkwQ20sEeeUvcuSuIDFCA" id="_4iqzQG0rEeeUvcuSuIDFCA" label="metadata_CRADRS">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwRG0sEeeUvcuSuIDFCA" label="_FADRS_N_INT_OBJET_" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwRW0sEeeUvcuSuIDFCA" label="_FADRS_TYP_ADRESSE_" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwRm0sEeeUvcuSuIDFCA" label="_FADRS_LIB_ADRESSE_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwR20sEeeUvcuSuIDFCA" label="_FADRS_DESIGN_1_" length="34" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwSG0sEeeUvcuSuIDFCA" label="_FADRS_DESIGN_2_" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwSW0sEeeUvcuSuIDFCA" label="_FADRS_ADRESSE_1_" length="33" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwSm0sEeeUvcuSuIDFCA" label="_FADRS_ADRESSE_2_" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwS20sEeeUvcuSuIDFCA" label="_FADRS_ADRESSE_3_" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwTG0sEeeUvcuSuIDFCA" label="_FADRS_COD_POSTAL_" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwTW0sEeeUvcuSuIDFCA" label="_FADRS_VILLE_" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwTm0sEeeUvcuSuIDFCA" label="_FADRS_PAYS_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwT20sEeeUvcuSuIDFCA" label="_FADRS_TEL_PERSO_" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwUG0sEeeUvcuSuIDFCA" label="_FADRS_TEL_PROF_" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwUW0sEeeUvcuSuIDFCA" label="_FADRS_TEL_PROF_POST_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwUm0sEeeUvcuSuIDFCA" label="_FADRS_FAX_" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwU20sEeeUvcuSuIDFCA" label="_FADRS_CLE_MAGIC_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwVG0sEeeUvcuSuIDFCA" label="_FADRS_COD_COMMUNE_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwVW0sEeeUvcuSuIDFCA" label="_FADRS_CEDEX_" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwVm0sEeeUvcuSuIDFCA" label="_FADRS_DT_DEB_VALID_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwV20sEeeUvcuSuIDFCA" label="_FADRS_DT_FIN_VALID_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwWG0sEeeUvcuSuIDFCA" label="_FADRS_NAT_ADRESSE_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwWW0sEeeUvcuSuIDFCA" label="_FADRS_MEL_PERSO_" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cbkwWm0sEeeUvcuSuIDFCA" label="_FADRS_MEL_PROF_" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

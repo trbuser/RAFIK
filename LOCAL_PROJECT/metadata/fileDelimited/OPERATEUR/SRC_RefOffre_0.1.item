@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_bJ3sQWEBEeeCtbxNQoW_0A" name="SRC_RefOffre" dataPackage="_bJ3sQmEBEeeCtbxNQoW_0A" Server="Localhost 127.0.0.1" FilePath="/home/rafik/Documents/Cours TP Talend/Fichier Plat/SRC_RefOffre.csv" Encoding="windows-1252" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_bJ3sQmEBEeeCtbxNQoW_0A" name="default" dataManager="_bJ3sQWEBEeeCtbxNQoW_0A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_bJ3sQ2EBEeeCtbxNQoW_0A" id="_PfOqEGEBEeeCtbxNQoW_0A" label="SRC_RefOffre_metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bJ3sRGEBEeeCtbxNQoW_0A" label="Id_Offre" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bJ3sRWEBEeeCtbxNQoW_0A" label="Lib_Offre" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bJ3sRmEBEeeCtbxNQoW_0A" label="Desc_Offre" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

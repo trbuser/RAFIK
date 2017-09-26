@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_XMKpcWcIEeefXZku12-qlQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_XMKpcmcIEeefXZku12-qlQ" comment="" name="repertoire" prompt="repertoire?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_XMKpc2cIEeefXZku12-qlQ" comment="" name="fichier" prompt="fichier?" promptNeeded="false" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_XMKpdGcIEeefXZku12-qlQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_XMKpdWcIEeefXZku12-qlQ" comment="" name="repertoire" prompt="repertoire?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_XMKpdmcIEeefXZku12-qlQ" comment="" name="fichier" prompt="fichier?" promptNeeded="false" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_XMKpd2cIEeefXZku12-qlQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_XMKpeGcIEeefXZku12-qlQ" comment="" name="repertoire" prompt="repertoire?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_XMKpeWcIEeefXZku12-qlQ" comment="" name="fichier" prompt="fichier?" promptNeeded="false" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_XMKpemcIEeefXZku12-qlQ" confirmationNeeded="false" name="REC">
+    <contextParameter xmi:id="_XMKpe2cIEeefXZku12-qlQ" comment="" name="repertoire" prompt="repertoire?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_XMKpfGcIEeefXZku12-qlQ" comment="" name="fichier" prompt="fichier?" promptNeeded="false" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_q_IcoHgqEeem0JGNObSEqQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_q_IcoXgqEeem0JGNObSEqQ" comment="" name="In" prompt="In?" promptNeeded="false" type="id_String" value="D:\HKfiles\in\"/>
+  <contextParameter xmi:id="_q_IcongqEeem0JGNObSEqQ" comment="" name="out" prompt="out?" promptNeeded="false" type="id_String" value="D:\HKfiles\out\"/>
+  <contextParameter xmi:id="_q_Ico3gqEeem0JGNObSEqQ" comment="" name="inter" prompt="inter?" promptNeeded="false" type="id_String" value="D:\HKfiles\inter\"/>
+  <contextParameter xmi:id="_HE4zcIzREeevs_1UxJHhyg" comment="" name="rejet" prompt="rejet?" promptNeeded="false" type="id_String" value="D:\HKfiles\rejet\"/>
+</talendfile:ContextType>

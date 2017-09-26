@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_DZZr4HamEeeA6YWvzPXggA" name="PC_contract_dossier" dataPackage="_DZgZkHamEeeA6YWvzPXggA" Server="Localhost 127.0.0.1" FilePath="D:/HK/PC/contract_dossier.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_DZgZkHamEeeA6YWvzPXggA" name="default" dataManager="_DZZr4HamEeeA6YWvzPXggA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_DZgZkXamEeeA6YWvzPXggA" id="_t31n4HalEeeA6YWvzPXggA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DZhAoHamEeeA6YWvzPXggA" label="COD_DOSSIER" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DZhAoXamEeeA6YWvzPXggA" label="COD_CONTRACTANT" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DZhAonamEeeA6YWvzPXggA" label="NUM_ORDRE" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DZhAo3amEeeA6YWvzPXggA" label="PRINCIPAL" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DZhApHamEeeA6YWvzPXggA" label="QUALITE" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DZhApXamEeeA6YWvzPXggA" label="COD_TOTEM" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DZhApnamEeeA6YWvzPXggA" label="IND_DATE_MCC" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

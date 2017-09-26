@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_q_3kQW3pEeeTfbcMfu5kMg" name="echeance" dataPackage="_q_3kQm3pEeeTfbcMfu5kMg" Server="Localhost 127.0.0.1" FilePath="C:/Users/ADBI46/Desktop/STH - Fichiers Data Sources/Alexandre_STH_13_07_2017_SPARC/STH/echeance/echeance.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_q_3kQm3pEeeTfbcMfu5kMg" name="default" dataManager="_q_3kQW3pEeeTfbcMfu5kMg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_q_3kQ23pEeeTfbcMfu5kMg" id="_QH0jwG3pEeeTfbcMfu5kMg" label="metadata_echeance">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q_3kRG3pEeeTfbcMfu5kMg" label="_COD_DOSSIER_" length="6" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q_3kRW3pEeeTfbcMfu5kMg" label="_COD_PRESTATION_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q_3kRm3pEeeTfbcMfu5kMg" label="_NUM_VERSION_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q_3kR23pEeeTfbcMfu5kMg" label="_NUM_ECHEANCE_" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q_3kSG3pEeeTfbcMfu5kMg" label="_DATE_ECHEANCE_" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q_3kSW3pEeeTfbcMfu5kMg" label="_CAP_A_AMORTIR_" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q_3kSm3pEeeTfbcMfu5kMg" label="_CAP_AMORTI_" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q_3kS23pEeeTfbcMfu5kMg" label="_INTERETS_" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q_3kTG3pEeeTfbcMfu5kMg" label="_MONT_ASSURANCE_" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q_3kTW3pEeeTfbcMfu5kMg" label="_MONT_ECHEANCE_" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_VYzG8GfPEeeF9r4W2fBgvg" name="texte1" dataPackage="_VYzG8WfPEeeF9r4W2fBgvg" Server="Localhost 127.0.0.1" FilePath="C:/Users/ADBI46/Desktop/doo/texte.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_VYzG8WfPEeeF9r4W2fBgvg" name="default" dataManager="_VYzG8GfPEeeF9r4W2fBgvg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_VYzG8mfPEeeF9r4W2fBgvg" id="_QjryIGfPEeeF9r4W2fBgvg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VYzG82fPEeeF9r4W2fBgvg" label="Column0" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VYzG9GfPEeeF9r4W2fBgvg" label="Column1" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VYzG9WfPEeeF9r4W2fBgvg" label="Column2" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

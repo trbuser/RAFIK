@@ -1,0 +1,27 @@
+package routines;
+
+ 
+public class routine_DOCSECTGESTION {
+
+	
+	public static String Iris2(String ind, boolean bank){
+	   	
+	   	switch(ind){
+	   	case "0": return "GEST";
+	   	case "2": return "CONT";
+	   	case "3": return "CONT";
+	   	case "4": return "GEST";
+	   	case "5": return "GEST";
+	   	case "6": return "PRECONT";
+	   	case "7": return "CONT";
+	   	case "1": if(bank==false) return "GEST"; else return "CONT";
+	   	case "8": if(bank==false) return "GEST"; else return "CONT";
+	   	default: return"";
+	   	}
+	   	
+	   	
+	   }
+	
+	
+
+}

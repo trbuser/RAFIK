@@ -1,0 +1,30 @@
+package routines;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern; 
+public class regex {
+
+     
+    public static String treat (String chaine) {
+        String gri=null;
+        String slash="/";
+        if(chaine.contains(slash)){
+        	
+        	chaine=chaine.split("/")[0];
+        	
+        	
+        }
+        chaine = chaine.replaceAll("\\.", "");
+        chaine=chaine.replaceAll("[^\\d.]", "");
+        chaine=chaine.replaceAll("\\/", "");
+        
+        
+        
+        
+      
+        gri=chaine;
+        
+        return(gri);
+    }
+   
+    
+}

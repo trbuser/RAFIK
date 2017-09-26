@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_eeqcsFZfEeeUP4oAdECHdg" comment="connectionComment" label="connectionLabel" dataPackage="_eeqcsVZfEeeUP4oAdECHdg"/>
+  <TalendMetadata:GenericPackage xmi:id="_eeqcsVZfEeeUP4oAdECHdg" dataManager="_eeqcsFZfEeeUP4oAdECHdg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_eeqcslZfEeeUP4oAdECHdg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eeqcs1ZfEeeUP4oAdECHdg" name="Name" id="57" label="Name" length="15" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_eerDwFZfEeeUP4oAdECHdg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eerDwVZfEeeUP4oAdECHdg" name="Street" id="58" label="Street" length="20" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_eerDwlZfEeeUP4oAdECHdg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eerDw1ZfEeeUP4oAdECHdg" name="City" id="59" label="City" length="20" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_eerDxFZfEeeUP4oAdECHdg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eerDxVZfEeeUP4oAdECHdg" name="index" id="60" label="index" length="-1" precision="-1" sourceType="" talendType="id_Integer" key="true">
+        <initialValue xmi:id="_eerDxlZfEeeUP4oAdECHdg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eerDx1ZfEeeUP4oAdECHdg" name="State" id="61" label="State" length="2" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_eerq0FZfEeeUP4oAdECHdg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eerq0VZfEeeUP4oAdECHdg" name="StateName" id="62" label="StateName" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_eerq0lZfEeeUP4oAdECHdg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

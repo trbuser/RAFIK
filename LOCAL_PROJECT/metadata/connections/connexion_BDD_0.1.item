@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_6Swb8GZIEeeFgPXuGizLyQ" name="connexion_BDD" id="_wfVaEGZIEeeFgPXuGizLyQ" label="connexion_BDD" dataPackage="_6TWR0GZIEeeFgPXuGizLyQ" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/test?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="NZNgK6DuncI=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="test" SqlSynthax="Syntaxe SQL" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_6Swb8WZIEeeFgPXuGizLyQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_6TDW4GZIEeeFgPXuGizLyQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_6TDW4WZIEeeFgPXuGizLyQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_6TDW4mZIEeeFgPXuGizLyQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_6TDW42ZIEeeFgPXuGizLyQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_6TDW5GZIEeeFgPXuGizLyQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_6TDW5WZIEeeFgPXuGizLyQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_6TDW5mZIEeeFgPXuGizLyQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_6TMg0GZIEeeFgPXuGizLyQ" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_6TMg0WZIEeeFgPXuGizLyQ" tag="DB ProductVersion" value="5.7.18-log"/>
+    <taggedValue xmi:id="_6TMg0mZIEeeFgPXuGizLyQ" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_6Swb8mZIEeeFgPXuGizLyQ" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_6TWR0GZIEeeFgPXuGizLyQ" name="test" dataManager="_6Swb8GZIEeeFgPXuGizLyQ"/>
+</xmi:XMI>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_5Q_IMFzMEee6qelwfHgzcQ" name="param_societe" dataPackage="_5Q_IMVzMEee6qelwfHgzcQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/MezGouG/Downloads/Documents/param_societe.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_5Q_IMVzMEee6qelwfHgzcQ" name="default" dataManager="_5Q_IMFzMEee6qelwfHgzcQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_5Q_IMlzMEee6qelwfHgzcQ" id="_tz-5YFzMEee6qelwfHgzcQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Q_IM1zMEee6qelwfHgzcQ" label="CODE_SOCIETE" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Q_INFzMEee6qelwfHgzcQ" label="LIBELLE_SOCIETE" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Q_INVzMEee6qelwfHgzcQ" label="INT" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5Q_INlzMEee6qelwfHgzcQ" label="PAR" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

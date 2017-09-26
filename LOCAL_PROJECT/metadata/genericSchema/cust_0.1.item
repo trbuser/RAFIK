@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_G0z8wFfvEeertOw1XeSYXQ" name="repository.metadataGenericSchema" dataPackage="_G0z8wVfvEeertOw1XeSYXQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_G0z8wVfvEeertOw1XeSYXQ" name="repository.metadataGenericSchema" dataManager="_G0z8wFfvEeertOw1XeSYXQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_G0z8wlfvEeertOw1XeSYXQ" id="_zWVK0FfuEeertOw1XeSYXQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G0z8w1fvEeertOw1XeSYXQ" name="id" label="id" length="4" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G0z8xFfvEeertOw1XeSYXQ" name="code" label="code" length="22" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G0z8xVfvEeertOw1XeSYXQ" name="age" label="age" length="4" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G0z8xlfvEeertOw1XeSYXQ" name="date" label="date" length="22" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G0z8x1fvEeertOw1XeSYXQ" name="country" label="country" length="22" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

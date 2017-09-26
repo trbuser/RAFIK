@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_XMA4dWcIEeefXZku12-qlQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_XMA4dmcIEeefXZku12-qlQ" comment="" name="TestDB_Database" prompt="TestDB_Database?" promptNeeded="false" type="id_String" value="test"/>
+    <contextParameter xmi:id="_XMA4d2cIEeefXZku12-qlQ" comment="" name="TestDB_AdditionalParams" prompt="TestDB_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_XMA4eGcIEeefXZku12-qlQ" comment="" name="TestDB_Server" prompt="TestDB_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_XMA4eWcIEeefXZku12-qlQ" comment="" name="TestDB_Port" prompt="TestDB_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_XMA4emcIEeefXZku12-qlQ" comment="" name="TestDB_Login" prompt="TestDB_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_XMA4e2cIEeefXZku12-qlQ" comment="" name="TestDB_Password" prompt="TestDB_Password?" promptNeeded="false" type="id_Password" value="NZNgK6DuncI="/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_XMA4fGcIEeefXZku12-qlQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_XMA4fWcIEeefXZku12-qlQ" comment="" name="TestDB_Database" prompt="TestDB_Database?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_XMA4fmcIEeefXZku12-qlQ" comment="" name="TestDB_AdditionalParams" prompt="TestDB_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_XMA4f2cIEeefXZku12-qlQ" comment="" name="TestDB_Server" prompt="TestDB_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_XMA4gGcIEeefXZku12-qlQ" comment="" name="TestDB_Port" prompt="TestDB_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_XMA4gWcIEeefXZku12-qlQ" comment="" name="TestDB_Login" prompt="TestDB_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_XMA4gmcIEeefXZku12-qlQ" comment="" name="TestDB_Password" prompt="TestDB_Password?" promptNeeded="false" type="id_Password" value="NZNgK6DuncI="/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_XMA4g2cIEeefXZku12-qlQ" confirmationNeeded="false" name="REC">
+    <contextParameter xmi:id="_XMA4hGcIEeefXZku12-qlQ" comment="" name="TestDB_Database" prompt="TestDB_Database?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_XMA4hWcIEeefXZku12-qlQ" comment="" name="TestDB_AdditionalParams" prompt="TestDB_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_XMA4hmcIEeefXZku12-qlQ" comment="" name="TestDB_Server" prompt="TestDB_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_XMA4h2cIEeefXZku12-qlQ" comment="" name="TestDB_Port" prompt="TestDB_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_XMA4iGcIEeefXZku12-qlQ" comment="" name="TestDB_Login" prompt="TestDB_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_XMA4iWcIEeefXZku12-qlQ" comment="" name="TestDB_Password" prompt="TestDB_Password?" promptNeeded="false" type="id_Password" value="NZNgK6DuncI="/>
+  </talendfile:ContextType>
+</xmi:XMI>

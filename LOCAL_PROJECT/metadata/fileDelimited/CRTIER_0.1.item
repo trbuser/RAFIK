@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_raVzkHB3Eeeg0rumsTzSLQ" name="CRTIER" dataPackage="_raVzkXB3Eeeg0rumsTzSLQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/ADBI46/Desktop/STH - Fichiers Data Sources/Alexandre_STH_18_07_2017_VBANK/CRTIER.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_raVzkXB3Eeeg0rumsTzSLQ" name="default" dataManager="_raVzkHB3Eeeg0rumsTzSLQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_raVzknB3Eeeg0rumsTzSLQ" id="_cFLAYHB3Eeeg0rumsTzSLQ" label="metadata_CRTIER">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_raVzk3B3Eeeg0rumsTzSLQ" label="_FTIER_N_INT_PERS_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_raVzlHB3Eeeg0rumsTzSLQ" label="_FTIER_TYP_INTV_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_raVzlXB3Eeeg0rumsTzSLQ" label="_FTIER_N_INT_ENTITE_" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_raVzlnB3Eeeg0rumsTzSLQ" label="_FTIER_TYP_ENTITE_" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_raVzl3B3Eeeg0rumsTzSLQ" label="_FTIER_N_INT_DOSS_" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_raVzmHB3Eeeg0rumsTzSLQ" label="_FTIER_N_INT_FAMI_" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_raVzmXB3Eeeg0rumsTzSLQ" label="_FTIER_LIB_ENTITE_" length="42" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_raVzmnB3Eeeg0rumsTzSLQ" label="_FTIER_REF_EXTERNE_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

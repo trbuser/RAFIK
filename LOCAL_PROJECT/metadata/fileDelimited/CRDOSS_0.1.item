@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_9zTbYJMHEeeheezCffcGSg" name="CRDOSS" dataPackage="_9zTbYZMHEeeheezCffcGSg" Server="Localhost 127.0.0.1" FilePath="C:/HNK/DATA_SOURCE/VBANK/CRDOSS.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_9zTbYZMHEeeheezCffcGSg" name="default" dataManager="_9zTbYJMHEeeheezCffcGSg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9zTbYpMHEeeheezCffcGSg" id="_y9pgcJMHEeeheezCffcGSg" label="CRDOSS">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbY5MHEeeheezCffcGSg" label="_FDOSS_N_INT_DOSS_" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbZJMHEeeheezCffcGSg" label="_FDOSS_N_LOT_INTF_" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbZZMHEeeheezCffcGSg" label="_FDOSS_REF_DOSS_" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbZpMHEeeheezCffcGSg" label="_FDOSS_NOM_DOSS_" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbZ5MHEeeheezCffcGSg" label="_FDOSS_STAT_OUV_DOSS_" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbaJMHEeeheezCffcGSg" label="_FDOSS_STATUS_DOSS_" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbaZMHEeeheezCffcGSg" label="_FDOSS_ETAT_DOSS_" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbapMHEeeheezCffcGSg" label="_FDOSS_ID_SUIVI_" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTba5MHEeeheezCffcGSg" label="_FDOSS_COD_GEST_1_" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbbJMHEeeheezCffcGSg" label="_FDOSS_COD_GEST_2_" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbbZMHEeeheezCffcGSg" label="_FDOSS_DAT_OUV_DOSS_" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbbpMHEeeheezCffcGSg" label="_FDOSS_MOTIF_OUV_" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbb5MHEeeheezCffcGSg" label="_FDOSS_DAT_CLOT_DOSS_" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbcJMHEeeheezCffcGSg" label="_FDOSS_TYP_DOSS_" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbcZMHEeeheezCffcGSg" label="_FDOSS_CAT_DOSS_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbcpMHEeeheezCffcGSg" label="_FDOSS_COD_ETABLISS_" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbc5MHEeeheezCffcGSg" label="_FDOSS_ID_PROV_1_" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbdJMHEeeheezCffcGSg" label="_FDOSS_ID_PROV_2_" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbdZMHEeeheezCffcGSg" label="_FDOSS_ID_PROV_3_" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbdpMHEeeheezCffcGSg" label="_FDOSS_AGENT_ECO_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbd5MHEeeheezCffcGSg" label="_FDOSS_COD_RESID_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbeJMHEeeheezCffcGSg" label="_FDOSS_COD_FAMILLE_" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbeZMHEeeheezCffcGSg" label="_FDOSS_IMPACT_INTF_" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbepMHEeeheezCffcGSg" label="_FDOSS_SELECT_DOSS_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbe5MHEeeheezCffcGSg" label="_FDOSS_COD_UTIL_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbfJMHEeeheezCffcGSg" label="_FDOSS_PB_TRAIT_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbfZMHEeeheezCffcGSg" label="_FDOSS__NUM_ARCH_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbfpMHEeeheezCffcGSg" label="_FDOSS_REF_ARCH_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbf5MHEeeheezCffcGSg" label="_FDOSS_N_INT_FAMILLE_" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbgJMHEeeheezCffcGSg" label="_FDOSS_MOD_TRAIT_" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbgZMHEeeheezCffcGSg" label="_FDOSS_MOD_TRAIT_THEO_" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbgpMHEeeheezCffcGSg" label="_FDOSS_SUSP_COURRIERS_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbg5MHEeeheezCffcGSg" label="_FDOSS_MT_ESPOIR_REC_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbhJMHEeeheezCffcGSg" label="_FDOSS_DAT_ENTREE_REL_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbhZMHEeeheezCffcGSg" label="_FDOSS_CODE_STOCK_" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbhpMHEeeheezCffcGSg" label="_FDOSS_IDENTIFIANT_LONG_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbh5MHEeeheezCffcGSg" label="_FDOSS_DAT_CREATION_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbiJMHEeeheezCffcGSg" label="_FDOSS_HEURE_CREATION_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbiZMHEeeheezCffcGSg" label="_FDOSS_GEST_CREATION_" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbipMHEeeheezCffcGSg" label="_FDOSS_DAT_MAJ_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbi5MHEeeheezCffcGSg" label="_FDOSS_HEURE_MAJ_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbjJMHEeeheezCffcGSg" label="_FDOSS_SEGMENTATION_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbjZMHEeeheezCffcGSg" label="_FDOSS_DAT_ENTREE_DTX_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9zTbjpMHEeeheezCffcGSg" label="_FDOSS_MOTIF_OUV_DTX_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

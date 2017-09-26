@@ -1,0 +1,166 @@
+package routines;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class Utils {
+
+    static int incrementedNumber = 0;
+	
+    public static String getTelOrFax(String telFieldName) {
+    	
+    	if(telFieldName != null && !telFieldName.isEmpty())
+    		return "TEL";
+    	else
+    		return "FAX";
+    }
+    
+    public static String getTelOrFaxValue(String telFieldName, String faxFieldName) {
+    	if(telFieldName != null && !telFieldName.isEmpty())
+    		return telFieldName;
+    	else
+    		return faxFieldName;
+    }
+    
+    public static String getIncrementedNumber() {
+    	incrementedNumber += 1;
+    	//Format the number with 3 digits leading 0s
+    	return String.format("%03d", incrementedNumber);
+    }
+    
+    public static String getSEQNom(String seqNom) {
+    	if(seqNom != null && !seqNom.isEmpty())
+    		return seqNom;
+    	else
+    		return getIncrementedNumber();
+    }
+	
+    /************
+    public static String getCategoriesJuridiques(String categorieJuridique){
+    	String ret = "";
+    	if(categorieJuridique.equals("SARL")){
+    		ret = "Société à responsabilité limitée (sans autre indication)";
+    	}
+    	
+    	else if(categorieJuridique.equals("SA")){
+    		ret = "SA à  directoire (s.a.i.)";
+    	}
+    	
+		else if(categorieJuridique.equals("EURL")){
+			ret = "SARL unipersonnelle";	
+		}
+		    	
+		else if(categorieJuridique.equals("SNC")){
+			ret = "Société en nom collectif";
+		}
+		    	
+		else if(categorieJuridique.equals("SAS")){
+			ret = "Société par actions simplifiée à associé unique ou société par ac";
+		}
+		    	
+		else if(categorieJuridique.equals("EIRL")){
+			ret = "SARL unipersonnelle";
+		}
+		    	
+		else if(categorieJuridique.equals("Association")){
+			ret = "Association déclarée";
+		}
+		    	
+    	return ret;
+    }
+***********/    
+
+    public static String ACTTYPE_Tiers(String FPERS_TYP_PERS){
+    	String ret = "";
+    	if((FPERS_TYP_PERS.trim()).equals("M")){
+    		ret = "Personne Physique";
+    	}
+    	else if((FPERS_TYP_PERS.trim()).equals("P")){
+    		ret = "Personne Morale";
+    	}
+    	return ret;
+    	
+    }
+
+    //FILEACTEUR_Vbank
+    /*******8
+    public static String APASEXE_Tiers(String FPERS_SEXE){
+    	String ret = "";
+    	if((FPERS_SEXE.trim()).equals("1")){
+    		ret = "HOMME";
+    	}
+    	else if((FPERS_SEXE.trim()).equals("2")){
+    		ret = "FEMME";
+    	}
+    	else{
+    		ret = "SOCIETE";
+    	}
+    	return ret;
+    	
+    }**************/
+
+    //FILEACTEUR_Vbank
+    public static String ACTNOM1_Tiers(String FPERS_NOM_PERS, String FPERS_NOM_JEUN_FILLE, String FPERS_SEXE){
+    	String ret = "";
+    	if((FPERS_SEXE.trim()).equals("1")){
+    		ret = FPERS_NOM_PERS;
+    	}
+    	else if((FPERS_SEXE.trim()).equals("2")){
+    		ret = FPERS_NOM_JEUN_FILLE;
+    	}
+    	return ret;
+    	
+    }
+    
+	public static String getFileactroleRoleCode(String codeEntree) {
+		String codeSortie = "";
+		switch(codeEntree) {
+			case "EMPRUNT":
+				codeSortie = "EMPRUNT";
+				break;
+			case "DIST":
+				codeSortie = "DISTRIB";
+				break;
+			case "CAUTION":
+				codeSortie = "NOTAIRE";
+				break;
+			case "PDV":
+				codeSortie = "PDV";
+				break;
+			case "CONV":
+				codeSortie = "CONV";
+				break;
+			case "TDC":
+				codeSortie = "GREFFE";
+				break;
+			case "SEQ":
+				codeSortie = "SEQ";
+				break;
+			case "BANQ":
+				codeSortie = "BANQCLT";
+				break;
+			case "AVOCAT":
+				codeSortie = "REDACT";
+				break;
+			case "NOTAIRE":
+				codeSortie = "GARANT";
+				break;
+		}
+		return codeSortie;
+	}
+}

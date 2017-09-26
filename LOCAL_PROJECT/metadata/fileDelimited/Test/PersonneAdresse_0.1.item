@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_C6IdMGIyEee6J6cUzHHGoQ" name="PersonneAdresse" dataPackage="_C6IdMWIyEee6J6cUzHHGoQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/user/Downloads/personnes.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_C6IdMWIyEee6J6cUzHHGoQ" name="default" dataManager="_C6IdMGIyEee6J6cUzHHGoQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_C6IdMmIyEee6J6cUzHHGoQ" id="_3a9rMGIxEee6J6cUzHHGoQ" label="PersonneAdresse">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C6IdM2IyEee6J6cUzHHGoQ" label="nom" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C6IdNGIyEee6J6cUzHHGoQ" label="prenom" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C6IdNWIyEee6J6cUzHHGoQ" label="dt_naissance" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C6IdNmIyEee6J6cUzHHGoQ" label="adr_fac" length="46" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C6IdN2IyEee6J6cUzHHGoQ" label="adr_liv" length="49" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

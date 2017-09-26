@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_XL3HcGcIEeefXZku12-qlQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_XL3HcWcIEeefXZku12-qlQ" comment="" name="connexion_Server" prompt="connexion_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_XL3HcmcIEeefXZku12-qlQ" comment="" name="connexion_Port" prompt="connexion_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_XL3Hc2cIEeefXZku12-qlQ" comment="" name="connexion_Password" prompt="connexion_Password?" promptNeeded="false" type="id_Password" value="0yFCRT2Q52GBFffAtTTeXw=="/>
+  <contextParameter xmi:id="_XL3HdGcIEeefXZku12-qlQ" comment="" name="connexion_Database" prompt="connexion_Database?" promptNeeded="false" type="id_String" value="Talend_DB"/>
+  <contextParameter xmi:id="_XL3HdWcIEeefXZku12-qlQ" comment="" name="connexion_AdditionalParams" prompt="connexion_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  <contextParameter xmi:id="_XL3HdmcIEeefXZku12-qlQ" comment="" name="connexion_Login" prompt="connexion_Login?" promptNeeded="false" type="id_String" value="root"/>
+</talendfile:ContextType>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_-L4G8Hd9Eeev5KjO7-eKgA" name="t_Sparc_EntiteJuridique" dataPackage="_-L4G8Xd9Eeev5KjO7-eKgA" Server="Localhost 127.0.0.1" FilePath="D:/HK/files/Inter/t_Sparc_Entite_Juridique.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_-L4G8Xd9Eeev5KjO7-eKgA" name="default" dataManager="_-L4G8Hd9Eeev5KjO7-eKgA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_-L4G8nd9Eeev5KjO7-eKgA" id="_s0T-MHd9Eeev5KjO7-eKgA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-L4G83d9Eeev5KjO7-eKgA" label="ContractantPC__c" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-L4G9Hd9Eeev5KjO7-eKgA" label="SIRET__c" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-L4G9Xd9Eeev5KjO7-eKgA" label="Phone" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-L4G9nd9Eeev5KjO7-eKgA" label="Email__c" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-L4G93d9Eeev5KjO7-eKgA" label="CreatedDate" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-L4G-Hd9Eeev5KjO7-eKgA" label="Website" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-L4G-Xd9Eeev5KjO7-eKgA" label="Famille__c" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

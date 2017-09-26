@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_pk7F0J-lEeeW_vpM1nqqtw" name="EXTRACT_LEX" dataPackage="_pk7F0Z-lEeeW_vpM1nqqtw" Server="Localhost 127.0.0.1" FilePath="C:/HNK/DATA/IN/Extract_LEX_20092017_STH.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_pk7F0Z-lEeeW_vpM1nqqtw" name="default" dataManager="_pk7F0J-lEeeW_vpM1nqqtw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_pk7F0p-lEeeW_vpM1nqqtw" id="_hBY-gJ-lEeeW_vpM1nqqtw" label="IN_FILE_PATH_FILE_EXTRACT_LEX">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pk7F05-lEeeW_vpM1nqqtw" label="Column0" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pk7F1J-lEeeW_vpM1nqqtw" label="Id" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pk7F1Z-lEeeW_vpM1nqqtw" label="LieuExploitation__r" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pk7F1p-lEeeW_vpM1nqqtw" label="LieuExploitation__r_Id" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pk7F15-lEeeW_vpM1nqqtw" label="LieuExploitation__r_Name" length="56" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pk7F2J-lEeeW_vpM1nqqtw" label="LieuExploitation__r_NumVoie__c" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pk7F2Z-lEeeW_vpM1nqqtw" label="LieuExploitation__r_CodePostal__c" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pk7F2p-lEeeW_vpM1nqqtw" label="LieuExploitation__r_CompAdresse__c" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pk7F25-lEeeW_vpM1nqqtw" label="LieuExploitation__r_LibelleVoie__c" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pk7F3J-lEeeW_vpM1nqqtw" label="LieuExploitation__r_IndiceRepetition__c" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pk7F3Z-lEeeW_vpM1nqqtw" label="LieuExploitation__r_Ville__c" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pk7F3p-lEeeW_vpM1nqqtw" label="LieuExploitation__r_TypeVoie__c" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pk7F35-lEeeW_vpM1nqqtw" label="Pdv__r" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pk7F4J-lEeeW_vpM1nqqtw" label="Pdv__r_Name" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pk7F4Z-lEeeW_vpM1nqqtw" label="Pdv__r_Id" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

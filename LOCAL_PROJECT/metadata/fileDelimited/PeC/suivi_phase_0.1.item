@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_PTgBMYyxEeevs_1UxJHhyg" name="suivi_phase" dataPackage="_PTgBMoyxEeevs_1UxJHhyg" Server="Localhost 127.0.0.1" FilePath="C:/Users/ADBI46/Desktop/STH - Fichiers Data Sources/suivi_phase/suivi_phase.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_PTgBMoyxEeevs_1UxJHhyg" name="default" dataManager="_PTgBMYyxEeevs_1UxJHhyg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_PTgBM4yxEeevs_1UxJHhyg" id="_I9VwYIyxEeevs_1UxJHhyg" label="suivi_phase">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTgBNIyxEeevs_1UxJHhyg" label="COD_TACHE" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTgBNYyxEeevs_1UxJHhyg" label="COD_DOSSIER" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTgBNoyxEeevs_1UxJHhyg" label="NUM_ORDRE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTgBN4yxEeevs_1UxJHhyg" label="DATE1" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTgBOIyxEeevs_1UxJHhyg" label="DATE2" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTgBOYyxEeevs_1UxJHhyg" label="COMMENTAIRE" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTgBOoyxEeevs_1UxJHhyg" label="MONTANT" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTgBO4yxEeevs_1UxJHhyg" label="DIVERS" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PTgBPIyxEeevs_1UxJHhyg" label="LISTE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_B4WCAW1UEeeTfbcMfu5kMg" name="ConventionAM" dataPackage="_B4WCAm1UEeeTfbcMfu5kMg" Server="Localhost 127.0.0.1" FilePath="C:/Users/ADBI46/Desktop/STH - Fichiers Data Sources/Extractions Sparc - 18_07_2017/ConventionAM/ConventionAM.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_B4WCAm1UEeeTfbcMfu5kMg" name="default" dataManager="_B4WCAW1UEeeTfbcMfu5kMg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_B4WCA21UEeeTfbcMfu5kMg" id="_9Gk8IG1TEeeTfbcMfu5kMg" label="metadata_ConventionAM">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCBG1UEeeTfbcMfu5kMg" label="Id" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCBW1UEeeTfbcMfu5kMg" label="IsDeleted" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCBm1UEeeTfbcMfu5kMg" label="Name" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCB21UEeeTfbcMfu5kMg" label="RecordTypeId" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCCG1UEeeTfbcMfu5kMg" label="CreatedDate" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCCW1UEeeTfbcMfu5kMg" label="CreatedById" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCCm1UEeeTfbcMfu5kMg" label="LastModifiedDate" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCC21UEeeTfbcMfu5kMg" label="LastModifiedById" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCDG1UEeeTfbcMfu5kMg" label="SystemModstamp" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCDW1UEeeTfbcMfu5kMg" label="LastActivityDate" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCDm1UEeeTfbcMfu5kMg" label="ConnectionReceivedId" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCD21UEeeTfbcMfu5kMg" label="ConnectionSentId" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCEG1UEeeTfbcMfu5kMg" label="Dossier__c" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCEW1UEeeTfbcMfu5kMg" label="Distri_Convention__c" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCEm1UEeeTfbcMfu5kMg" label="Tech_CodeDossier__c" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCE21UEeeTfbcMfu5kMg" label="Autre__c" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCFG1UEeeTfbcMfu5kMg" label="CommencementDeLaNouvelleConvention__c" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCFW1UEeeTfbcMfu5kMg" label="Concurrence__c" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCFm1UEeeTfbcMfu5kMg" label="HE_Convention__c" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCF21UEeeTfbcMfu5kMg" label="DateDebutEffectiveContrat__c" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCGG1UEeeTfbcMfu5kMg" label="DateFinEffectiveContrat__c" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCGW1UEeeTfbcMfu5kMg" label="Distr__c" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCGm1UEeeTfbcMfu5kMg" label="DureeDeLaConventionDeBiere__c" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCG21UEeeTfbcMfu5kMg" label="DureeTheorique__c" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCHG1UEeeTfbcMfu5kMg" label="EcheanceDeLaConvention__c" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCHW1UEeeTfbcMfu5kMg" label="HE_beche__c" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCHm1UEeeTfbcMfu5kMg" label="HlTotal__c" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCH21UEeeTfbcMfu5kMg" label="PartHESurLaDureeDeLaConvention__c" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCIG1UEeeTfbcMfu5kMg" label="PotentielFutGlobal__c" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCIW1UEeeTfbcMfu5kMg" label="PrevisionFutHE__c" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCIm1UEeeTfbcMfu5kMg" label="RealiseAutresFuts__c" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCI21UEeeTfbcMfu5kMg" label="RemiseDistribMentionneeATitreDinfo__c" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCJG1UEeeTfbcMfu5kMg" label="TotalAMASur12Mois__c" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCJW1UEeeTfbcMfu5kMg" label="TotalAMASurLaDureeDeLaConvention__c" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCJm1UEeeTfbcMfu5kMg" label="Tech_Id_AMLFormHE__c" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCJ21UEeeTfbcMfu5kMg" label="Vide__c" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCKG1UEeeTfbcMfu5kMg" label="realhecours__c" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCKW1UEeeTfbcMfu5kMg" label="realheprec__c" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCKm1UEeeTfbcMfu5kMg" label="HE_amahe__c" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCK21UEeeTfbcMfu5kMg" label="HlAnnuel__c" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCLG1UEeeTfbcMfu5kMg" label="IndicateurConventionParMarque__c" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCLW1UEeeTfbcMfu5kMg" label="SommeRemiseDistrib__c" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCLm1UEeeTfbcMfu5kMg" label="AnneeDeRealisationPrecedenteOLD__c" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCL21UEeeTfbcMfu5kMg" label="AnneeDeRealisationPrecedente__c" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCMG1UEeeTfbcMfu5kMg" label="AnneeEnCoursOLD__c" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCMW1UEeeTfbcMfu5kMg" label="AnneeEnCours__c" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCMm1UEeeTfbcMfu5kMg" label="Cl_externe__c" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCM21UEeeTfbcMfu5kMg" label="DateDebutAM__c" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCNG1UEeeTfbcMfu5kMg" label="DatedefinAM__c" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCNW1UEeeTfbcMfu5kMg" label="DraughBeerPolicy__c" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCNm1UEeeTfbcMfu5kMg" label="MtPretArrondi__c" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCN21UEeeTfbcMfu5kMg" label="Suivi_Volumes_PDV__c" length="106" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCOG1UEeeTfbcMfu5kMg" label="TECH_RDD__c" length="54" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCOW1UEeeTfbcMfu5kMg" label="Total__c" length="44" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCOm1UEeeTfbcMfu5kMg" label="ODA_DATA_SAMP_ID__c" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCO21UEeeTfbcMfu5kMg" label="ODA_DATA_SAMP_WHY__c" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCPG1UEeeTfbcMfu5kMg" label="ODA_DATA_SAMP__c" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCPW1UEeeTfbcMfu5kMg" label="Column57" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B4WCPm1UEeeTfbcMfu5kMg" label="Column58" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
